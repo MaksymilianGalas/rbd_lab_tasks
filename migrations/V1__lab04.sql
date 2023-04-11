@@ -111,7 +111,7 @@ VALUES
 INSERT INTO data.driver_car (registration_number, colour, car_id, driver_id)
 VALUES
   ('G4 LAS', 'blue', 1, 1),
-  ('GND 57Y2', 'black', 2, 2),
+  ('GND 6785', 'black', 2, 2),
   ('GHI 789', 'green', 3, 3),
   ('JKL 012', 'black', 4, 4),
   ('MNO 345', 'white', 5, 5);
@@ -163,7 +163,7 @@ SELECT * FROM data.payment;
 SELECT * FROM data.payment_type;
 SELECT * FROM data.area;
 SELECT * FROM data.driver;
-SELECT * FROM data.driver_car;g
+SELECT * FROM data.driver_car;
 SELECT * FROM data.passenger_rating;
 SELECT * FROM data.driver_rating;
 SELECT * FROM data.passenger;
